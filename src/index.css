@@ -26,6 +26,7 @@ li:hover::before{
   width: 100px;
   background: #2a68ff;
   right: 0;
+  bottom: 19px;
   color: #2a68ff;
 
 
