@@ -1,4 +1,5 @@
 import React from 'react'
+import logo from "../../assets/logo.avif"
 
 const JobDiv = () => {
   return (
@@ -23,8 +24,15 @@ const JobDiv = () => {
           </p>
 
           <div className='company flex items-center gap-2'>
-            <img src='' alt=''/>
+            <img src={logo} alt='Company Logo' className='w-[10%]'/>
+            <span className='text-[14px] py-[1rem] block group-hover:text-white'>What.CO</span>
           </div>
+
+          <button className='border-[2px] rounded-[10px] block p-[10px] w-full text- 
+          [14px] font-semibold text-textColor hover:bg-white group-hover/item:text-textCOlor group-hover:text-white'>
+             
+            Apply Now
+          </button>
          </div>
       </div>
     </div>
