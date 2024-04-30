@@ -10,7 +10,7 @@ const Value = () => {
          <div className='grid gap-[10rem] grid-cols-3 items-center'>
           <div className='singleGrid rounded-[10px] hover:bg-[#eeedf7] p-[1.5rem]'>
             <div className='flex items-center gap-3'>
-              <div className='imgDiv p-[4px] rounded-[8rem] bg-inherit-[#dedef8] h-[40px]
+              <div className='imgDiv p-[4px] rounded-[8rem] bg-[#dedef8] h-[40px]
               w-[40px] flex items-center justify-center'>
                 <img src={simple} alt='' className='w-[70%]'/>
               </div>
@@ -22,6 +22,42 @@ const Value = () => {
             font-semi'>
               Things being made beautiful simple are at he heart of everything we do.
 
+            </p>
+          </div>
+         </div>
+
+         <div className='grid gap-[10rem] grid-cols-3 items-center'>
+          <div className='singleGrid rounded-[10px] hover:bg-[#eeedf7] p-[1.5rem]'>
+            <div className='flex items-center gap-3'>
+              <div className='imgDiv p-[4px] rounded-[8rem] bg-[#dedef8] h-[40px]
+              w-[40px] flex items-center justify-center'>
+                <img src={simple} alt='' className='w-[70%]'/>
+              </div>
+              <span className='font-semibold text-textColor text-[18px]'>
+                Simplicity
+              </span>
+            </div>
+            <p className='text-[25px] text-textCOlor opacity-[7] py-[1rem]
+            font-semi'>
+             Easier and collaborative
+            </p>
+          </div>
+         </div>
+
+         <div className='grid gap-[10rem] grid-cols-3 items-center'>
+          <div className='singleGrid rounded-[10px] hover:bg-[#eeedf7] p-[1.5rem]'>
+            <div className='flex items-center gap-3'>
+              <div className='imgDiv p-[4px] rounded-[8rem] bg-[#dedef8] h-[40px]
+              w-[40px] flex items-center justify-center'>
+                <img src={simple} alt='' className='w-[70%]'/>
+              </div>
+              <span className='font-semibold text-textColor text-[18px]'>
+                Simplicity
+              </span>
+            </div>
+            <p className='text-[25px] text-textCOlor opacity-[7] py-[1rem]
+            font-semi'>
+              WOrk from anywhere across the World.
             </p>
           </div>
          </div>
