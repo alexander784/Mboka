@@ -43,6 +43,14 @@ const Data = [
     desc: 'Lorem ipsum, ',
     company: 'What.CO'
   },
+  {
+    id: 1,
+    image: logo,
+    title: 'UI Degigner',
+    location: 'Spain',
+    desc: 'Lorem ipsum, ',
+    company: 'Liquid.com'
+  },
 
 ];
 
