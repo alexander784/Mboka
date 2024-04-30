@@ -1,5 +1,10 @@
 import React from 'react';
-import { AiOutlineSearch,AiOutlineCloseCircle } from "react-icons/ai";
+import { AiOutlineCloseCircle } from "react-icons/ai";
+import { AiOutlineSearch } from "react-icons/ai";
+import { CiLocationOn } from "react-icons/ci";
+// import AiOutlineCloseCircle from "react-icons/ai";
+import {BsHouseDoor  } from "react-icons/bs"
+
 
 const Search = () => {
   return (
@@ -10,12 +15,24 @@ const Search = () => {
         <AiOutlineSearch className='text-[25px] icon '/>
         <input type='text' className='bg-transparent text-blue-500
         focus:outline-none w-[100%]' placeholder='Search job here...'/>
-
-<AiOutlineCloseCircle className='text-[30px] text-[#a5a6a6]
-hover:text-textColor icon' />
-
-
+          <AiOutlineCloseCircle className='text-[30px] text-[#a5a6a6]
+              hover:text-textColor icon' />
         </div>
+        <div className='flex gap-2 items-center'>
+        <BsHouseDoor  className='text-[25px] icon '/>
+        <input type='text' className='bg-transparent text-blue-500
+        focus:outline-none w-[100%]' placeholder='Search by company'/>
+          <AiOutlineCloseCircle className='text-[30px] text-[#a5a6a6]
+              hover:text-textColor icon' />
+        </div>
+        <div className='flex gap-2 items-center'>
+        <CiLocationOn  className='text-[25px] icon '/>
+        <input type='text' className='bg-transparent text-blue-500
+        focus:outline-none w-[100%]' placeholder='Search by location...'/>
+          <AiOutlineCloseCircle className='text-[30px] text-[#a5a6a6]
+              hover:text-textColor icon' />
+        </div>
+        
 
       </form>
   
