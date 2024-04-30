@@ -43,9 +43,40 @@ const Search = () => {
       </form>
       <div className='secDiv flex items-center gap-10 justify-center'>
         <div className='singleSearch flex items-center gap-2'>
-          <label htmlFor='relevance' className='text-[#8080]' font-semibold>Sort By:</label>
-          
+          <label htmlFor='relevance' className='text-[#808000] font-semibold'>Sort By:</label>
+          <select name='' id='relevance' className='bg-white rounded-[3px] px-4 py-1'>
+            <option value="">Relevance</option>
+            <option value="">Inclusive</option>
+            <option value="">Starts with</option>
+            <option value="">Contains</option>
+          </select>
+
         </div>
+
+        <div className='singleSearch flex items-center gap-2'>
+          <label htmlFor='type' className='text-[#808000] font-semibold'>Sort By:</label>
+          <select name='' id='relevance' className='bg-white rounded-[3px] px-4 py-1'>
+            <option value="">Fulltime</option>
+            <option value="">Remote</option>
+            <option value="">Contract</option>
+            <option value="">Part-time</option>
+          </select>
+
+        </div>
+
+        <div className='singleSearch flex items-center gap-2'>
+          <label htmlFor='level' className='text-[#808000] font-semibold'>level:</label>
+          <select name='' id='level' className='bg-white rounded-[3px] px-4 py-1'>
+            <option value="">Senior</option>
+            <option value="">Beginner</option>
+            <option value="">Intermediate</option>
+            <option value="">Advocate</option>
+          </select>
+
+        </div>
+        <span className='text=[#a1a1a1] cursor-pointer'>Clear All</span>
+
+        
       </div>
       
     </div>
