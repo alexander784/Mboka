@@ -46,7 +46,7 @@ const Data = [
   {
     id: 1,
     image: logo,
-    title: 'UI Degigner',
+    title: 'UI Designer',
     location: 'Spain',
     desc: 'Lorem ipsum, ',
     company: 'Liquid.com'
@@ -60,7 +60,7 @@ const JobDiv = () => {
       <div className='jobcontainer flex gap-10 justify-center flex-wrap items-center py-10'>
         {Data.map((job) => (
           <div key={job.id}
-            className='group group/item singleJob w-[250px] p-[20px] bg-white rounded [10px] hover:bg-blueColor shadow-lg shadow-greyIsh-400/700 hover:shadow-lg'
+            className='group group/item singleJob w-[250px] p-[20px] bg-white rounded [10px] bg-cyan-500 hover:bg-cyan-600 shadow-lg shadow-greyIsh-400/700 hover:shadow-lg'
           >
             <span className='flex justify-between items-center gap-4'>
               <h1 className='text-[16px] font-semibold text-textcolor group-hover:text-white'>{job.title}</h1>
@@ -76,7 +76,7 @@ const JobDiv = () => {
               <img src={job.image} alt='Company Logo' className='w-[10%]'/>
               <span className='text-[14px] py-[1rem] block group-hover:text-white'>{job.company}</span>
             </div>
-            <button className='border-[2px] rounded-[10px] block p-[10px] w-full text-[14px] font-semibold text-textColor hover:bg-white group-hover/item:text-textCOlor group-hover:text-white'>
+            <button className='border-[2px] rounded-[10px] block p-[10px] w-full text-[14px] font-semibold text-textColor hover:bg-white group-hover/item:text-textColor group-hover:text-white'>
               Apply Now
             </button>
           </div>

@@ -5,16 +5,16 @@ import { BsFacebook } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <div className='footer p-[5rem] mb-4 bg blueColor rounded-[10px] gap-[8] grid
+    <div className='footer p-[5rem] mb-4 bg-slate-900	background-color: rgb(15 23 42);rounded-[10px] gap-8 grid
     grid-cols-5 m-auto items-center justify-center'>
 
       <div>
         <div className='logoDiv'>
-          <h1 className='logo text-[25px] text-blueColor'>
-            <strong>Job</strong>Search
+          <h1 className='logo text-[25px] text-white pb-[1.5rem]'>
+            <strong>Crab</strong>Jobs
           </h1>
         </div>
-        <p className='text-black pb-[13px] opacity-70 leading-7'>
+        <p className='text-white pb-[13px] opacity-70 leading-7'>
           We always make our seekers and companies find the best jobs and employers find best candidates.
 
         </p>
@@ -58,7 +58,7 @@ const Footer = () => {
           Contact Info
         </span> 
         <div>
-          <small className='text-[14px]' text-white>
+          <small className='text-[14px] text-white'>
             ga.nyaga7@gmail.com
           </small>
           <div className='icons flex gap-4 py-[1rem]'>
