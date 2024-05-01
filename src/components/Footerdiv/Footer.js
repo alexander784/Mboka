@@ -5,71 +5,71 @@ import { BsFacebook } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <div className='footer p-[5rem] mb-4 bg-slate-900	background-color: rgb(15 23 42);rounded-[10px] gap-8 grid
-    grid-cols-5 m-auto items-center justify-center'>
-
-      <div>
+    <div className='footer p-10 md:p-20 mb-4 bg-slate-900 rounded-lg grid grid-cols-1 md:grid-cols-5 gap-10 md:gap-8 items-center justify-center'>
+      <div className='col-span-1 md:col-span-2'>
         <div className='logoDiv'>
-          <h1 className='logo text-[25px] text-white pb-[1.5rem]'>
+          <h1 className='logo text-2xl text-white pb-6 md:pb-12'>
             <strong>Crab</strong>Jobs
           </h1>
         </div>
-        <p className='text-white pb-[13px] opacity-70 leading-7'>
-          We always make our seekers and companies find the best jobs and employers find best candidates.
-
+        <p className='text-white opacity-70 leading-7'>
+          We always make our seekers and companies find the best jobs and employers find the best candidates.
         </p>
       </div>
 
-      <div className='grid'>
-        <span className='divTitle Text-[18px] font-semibold pb-[1.5rem] text-white'>
+      <div className='col-span-1'>
+        <span className='divTitle text-lg font-semibold pb-6 text-white'>
           Company
         </span> 
         <div className='grid gap-3'>
-          <li className='text-white opacity-[.7] hover:opacity-[1]'>About Us</li>
-          <li className='text-white opacity-[.7] hover:opacity-[1]'>Features</li>
-          <li className='text-white opacity-[.7] hover:opacity-[1]'>News</li>
-          <li className='text-white opacity-[.7] hover:opacity-[1]'>FAQ</li>
+          <li className='text-white opacity-70 hover:opacity-100'>About Us</li>
+          <li className='text-white opacity-70 hover:opacity-100'>Features</li>
+          <li className='text-white opacity-70 hover:opacity-100'>News</li>
+          <li className='text-white opacity-70 hover:opacity-100'>FAQ</li>
         </div>
       </div>
-      <div className='grid'>
-        <span className='divTitle Text-[18px] font-semibold pb-[1.5rem] text-white'>
+
+      <div className='col-span-1'>
+        <span className='divTitle text-lg font-semibold pb-6 text-white'>
           Resources
         </span> 
         <div className='grid gap-3'>
-          <li className='text-white opacity-[.7] hover:opacity-[1]'>Account</li>
-          <li className='text-white opacity-[.7] hover:opacity-[1]'>Support Center</li>
-          <li className='text-white opacity-[.7] hover:opacity-[1]'>Feedback</li>
-          <li className='text-white opacity-[.7] hover:opacity-[1]'>Contact Us</li>
+          <li className='text-white opacity-70 hover:opacity-100'>Account</li>
+          <li className='text-white opacity-70 hover:opacity-100'>Support Center</li>
+          <li className='text-white opacity-70 hover:opacity-100'>Feedback</li>
+          <li className='text-white opacity-70 hover:opacity-100'>Contact Us</li>
         </div>
       </div>
-      <div className='grid'>
-        <span className='divTitle Text-[18px] font-semibold pb-[1.5rem] text-white'>
+
+      <div className='col-span-1'>
+        <span className='divTitle text-lg font-semibold pb-6 text-white'>
           Support
         </span> 
         <div className='grid gap-3'>
-          <li className='text-white opacity-[.7] hover:opacity-[1]'>Events</li>
-          <li className='text-white opacity-[.7] hover:opacity-[1]'>Promo</li>
-          <li className='text-white opacity-[.7] hover:opacity-[1]'>Req Demo </li>
-          <li className='text-white opacity-[.7] hover:opacity-[1]'>Careers</li>
+          <li className='text-white opacity-70 hover:opacity-100'>Events</li>
+          <li className='text-white opacity-70 hover:opacity-100'>Promo</li>
+          <li className='text-white opacity-70 hover:opacity-100'>Req Demo</li>
+          <li className='text-white opacity-70 hover:opacity-100'>Careers</li>
         </div>
       </div>
-      <div className='grid'>
-        <span className='divTitle Text-[18px] font-semibold pb-[1.5rem] text-white'>
+
+      <div className='col-span-1'>
+        <span className='divTitle text-lg font-semibold pb-6 text-white'>
           Contact Info
         </span> 
         <div>
-          <small className='text-[14px] text-white'>
+          <small className='text-white text-sm'>
             ga.nyaga7@gmail.com
           </small>
-          <div className='icons flex gap-4 py-[1rem]'>
-          <AiFillInstagram className='bg-white p -[18px] h-[35px] rounded-full icon text-blueColor'/>
-           <AiOutlineTwitter className='bg-white p -[18px] h-[35px] rounded-full icon text-blueColor'/>
-           <BsFacebook className='bg-white p -[18px] h-[35px] rounded-full icon text-blueColor'/>
+          <div className='icons flex gap-4 pt-4'>
+            <AiFillInstagram className='text-blueColor bg-white p-2 h-10 w-10 rounded-full icon' />
+            <AiOutlineTwitter className='text-blueColor bg-white p-2 h-10 w-10 rounded-full icon' />
+            <BsFacebook className='text-blueColor bg-white p-2 h-10 w-10 rounded-full icon' />
           </div>
         </div>
-        </div>
       </div>
-  )
+    </div>
+  );
 }
 
 export default Footer;
